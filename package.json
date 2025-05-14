@@ -1,0 +1,24 @@
+{
+  "name": "photonic-ui",
+  "version": "1.0.0",
+  "description": "Ui components libruary for Vue3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLastCookie-404/photonic-ui.git"
+  },
+  "keywords": [
+    "photonic",
+    "photon"
+  ],
+  "author": "TheLastCookie-404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheLastCookie-404/photonic-ui/issues"
+  },
+  "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme"
+}
