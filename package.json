@@ -1,5 +1,5 @@
 {
-  "name": "photonic-ui",
+  "name": "photonic-ui-indev",
   "version": "0.0.0",
   "description": "Ui components libruary for Vue3",
   "main": "index.js",
