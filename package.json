@@ -1,6 +1,6 @@
 {
   "name": "photonic-ui-indev",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "description": "Ui components libruary for Vue3",
   "main": "index.js",
   "type": "module",
@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/TheLastCookie-404/photonic-ui/issues"
   },
-  "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme"
 }
