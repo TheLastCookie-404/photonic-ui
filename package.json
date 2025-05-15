@@ -1,6 +1,6 @@
 {
   "name": "photonic-ui-indev",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ui components libruary for Vue3",
   "main": "index.js",
   "type": "module",
