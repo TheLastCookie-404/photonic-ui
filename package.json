@@ -1,11 +1,11 @@
 {
   "name": "photonic-ui",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Ui components libruary for Vue3",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
