@@ -1,11 +1,19 @@
 {
-  "name": "photonic-ui-indev",
-  "version": "0.0.2",
+  "name": "photonic-ui",
+  "version": "0.0.9",
   "description": "Ui components libruary for Vue3",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "publish-patch": "npm version patch && npm publish",
     "test": "node test"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
   },
   "repository": {
     "type": "git",
