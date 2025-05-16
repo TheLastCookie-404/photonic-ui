@@ -1,9 +1,16 @@
 {
   "name": "photonic-ui",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Ui components libruary for Vue3",
-  "main": "index.js",
   "type": "module",
+  "main": "./dist/photonic-ui.umd.cjs",
+  "module": "./dist/photonic-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/photonic-ui.js",
+      "require": "./dist/photonic-ui.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
