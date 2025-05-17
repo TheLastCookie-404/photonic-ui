@@ -1,3 +1,5 @@
-export function sayHello() {
-  console.log("Hello aboba");
+import request from "@/fetch";
+
+export function getRequest() {
+  console.log(request);
 }
