@@ -16,12 +16,13 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "publish-patch": "npm version patch && npm publish",
-    "test": "jest"
+    "test": "vitest"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "ts-jest": "^29.3.4",
+    "ts-node": "^10.9.2",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
   },
@@ -38,8 +39,5 @@
   "bugs": {
     "url": "https://github.com/TheLastCookie-404/photonic-ui/issues"
   },
-  "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme",
-  "dependencies": {
-    "@types/node": "^22.15.18"
-  }
+  "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme"
 }

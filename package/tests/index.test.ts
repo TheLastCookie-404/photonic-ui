@@ -1,8 +1,7 @@
-import "@types/jest";
+import { test } from "vitest";
 
-// import { getRequest } from "../src/index";
-// getRequest();
 test("console test", () => {
   // Этот тест проходит, потому что он не выбрасывает исключение.
   console.log("test");
+  // sayHello();
 });
