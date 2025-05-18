@@ -1,10 +1,17 @@
-import request from "@/fetch";
+import { download } from "@/scripts/fetch";
+import { rl } from "@/cli/cli";
 
-request("https://photonic-ui.netlify.app/ui/Test.vue", "./components/Test.vue");
+// It`s work!!!
+//
+// download(
+//   "https://photonic-ui.netlify.app/ui/Test.vue",
+//   "./components/Test.vue"
+// );
 
-// export function getRequest() {
-//   request();
-// }
+rl.question(`What's your name?`, (name) => {
+  console.log(`Hi ${name}!`);
+  rl.close();
+});
 
 export function sayHello() {
   console.log("Hello");

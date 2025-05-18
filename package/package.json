@@ -15,6 +15,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "execute": "npx vite-node ./src/index.ts",
     "publish-patch": "npm version patch && npm publish",
     "test": "vitest"
   },
