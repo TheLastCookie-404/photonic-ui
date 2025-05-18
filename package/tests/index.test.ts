@@ -1,7 +1,6 @@
 import { test } from "vitest";
+import request from "@/fetch";
 
-test("console test", () => {
+test("Request testing", () => {
   // Этот тест проходит, потому что он не выбрасывает исключение.
-  console.log("test");
-  // sayHello();
 });
