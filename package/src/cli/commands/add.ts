@@ -1,5 +1,5 @@
-import { Command } from "commander";
+import { program } from "commander";
 
-export const add = new Command().name("test").action(() => {
+export const add = program.command("test").action(() => {
   console.log("Test command");
 });
