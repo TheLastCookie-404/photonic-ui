@@ -38,5 +38,8 @@
   "bugs": {
     "url": "https://github.com/TheLastCookie-404/photonic-ui/issues"
   },
-  "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme"
+  "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme",
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
 }

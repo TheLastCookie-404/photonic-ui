@@ -1,6 +1,5 @@
 import { test } from "vitest";
-import request from "@/fetch";
 
 test("Testing", () => {
-  console.log("test");
+  console.log("testing function emulating");
 });
