@@ -25,7 +25,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["@types/jest", "@types/node"]
+    "types": ["@types/node"]
   },
   "include": ["src", "tests"],
   "exclude": ["node_modules"]

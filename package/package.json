@@ -1,13 +1,13 @@
 {
   "name": "photonic-ui",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "Ui components libruary for Vue3",
   "publishConfig": {
     "access": "public"
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "type": "module",
-  "main": "./dist/photonic-ui.umd.cjs",
-  "module": "./dist/photonic-ui.js",
   "exports": {
     ".": {
       "import": "./dist/photonic-ui.js",
@@ -15,32 +15,32 @@
     }
   },
   "bin": {
-    "photonic-ui": "dist/photonic-ui.js"
+    "photonic-ui": "./dist/photonic-ui.js"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "execute": "npx vite-node ./src/index.ts",
+    "build": "tsup",
+    "execute": "node ./dist/index.js",
     "publish-patch": "npm version patch && npm publish",
     "test": "vitest"
   },
   "devDependencies": {
-    "@jest/globals": "^29.7.0",
-    "@types/jest": "^29.5.14",
-    "typescript": "~5.8.3",
-    "vite": "^6.3.5"
+    "typescript": "~5.8.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheLastCookie-404/photonic-ui.git"
   },
   "keywords": [
+    "photonic-ui",
     "photonic",
-    "photon"
+    "photon",
+    "components",
+    "vue",
+    "nuxt",
+    "ui"
   ],
   "author": "TheLastCookie-404",
   "license": "MIT",
@@ -49,6 +49,7 @@
   },
   "homepage": "https://github.com/TheLastCookie-404/photonic-ui#readme",
   "dependencies": {
-    "commander": "^14.0.0"
+    "commander": "^14.0.0",
+    "tsup": "^8.5.0"
   }
 }
