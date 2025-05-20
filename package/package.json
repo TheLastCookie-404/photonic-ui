@@ -1,21 +1,15 @@
 {
   "name": "photonic-ui",
-  "version": "0.0.24",
+  "version": "0.0.36",
   "description": "Ui components libruary for Vue3",
   "publishConfig": {
     "access": "public"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/photonic-ui.js",
-      "require": "./dist/photonic-ui.umd.cjs"
-    }
-  },
+  "types": "./dist/index.d.ts",
   "bin": {
-    "photonic-ui": "./dist/photonic-ui.js"
+    "photonic-ui": "./dist/index.js"
   },
   "files": [
     "dist"
