@@ -7,4 +7,5 @@ const targetDir = "./components/";
 
 test("Download test", () => {
   download(sourceUrl, targetDir);
+  // console.log(sourceUrl.pathname.match("[a-zA-z]*\\.[a-z]{1,6}$"));
 });
