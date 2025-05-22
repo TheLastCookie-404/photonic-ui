@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: "Make link"
         run: |
+          ls ./src/components
           mkdir -pv ./public/ui
           ln -s ./src/components ./public/ui
           ls ./public/ui
