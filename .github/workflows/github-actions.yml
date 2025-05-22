@@ -9,12 +9,4 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - run: cd package
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22.x"
-          registry-url: "https://registry.npmjs.org"
-      - run: npm i
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: ln -s ./src/components/ ./public/ui
