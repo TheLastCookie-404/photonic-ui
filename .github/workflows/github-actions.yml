@@ -1,6 +1,8 @@
 name: Publish to npm
 run-name: Publishing to NPM 🚀
-on: push
+on:
+  release:
+    types: [published]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +17,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: cd package
       - run: npm i
-      - run: npm run pub:next
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
