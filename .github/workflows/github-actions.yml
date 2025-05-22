@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: mkdir ./public/ui
-      - run: ln -s ./src/components ./public/ui
-      - run: ls ./public/ui/components
+      - run: ln -s ./public/ui ./src/components
+      - run: ls ./public/ui
