@@ -1,8 +1,6 @@
 name: Make components public
 run-name: Making components folder linket to punlic 🛠️
-on:
-  push:
-    branches: "dev"
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
