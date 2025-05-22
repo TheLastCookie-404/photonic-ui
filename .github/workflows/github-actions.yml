@@ -14,6 +14,6 @@ jobs:
       - name: "Make link"
         run: |
           ls ./src/components
-          mkdir ./public/ui
-          ln -s ./src/components ./public/ui
+          sudo mkdir ./public/ui
+          sudo ln -s ./src/components ./public/ui
           ls ./public/ui/components
