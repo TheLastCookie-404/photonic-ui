@@ -1,6 +1,8 @@
 name: Make components public
 run-name: Making components folder linket to punlic 🛠️
-on: push
+on:
+  push:
+    branches: "dev"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,4 +13,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: mkdir ./public/ui
       - run: ln -s ./src/components ./public/ui
-      - run: ls ./public/ui
+      - run: ls ./public/ui/
