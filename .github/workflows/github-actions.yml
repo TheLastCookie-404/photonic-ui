@@ -11,6 +11,8 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - run: mkdir -pv ./public/ui
-      - run: ln -s ./src/components ./public/ui
-      - run: ls ./public/ui
+      - name: "Make link"
+        run: |
+          mkdir -pv ./public/ui
+          ln -s ./src/components ./public/ui
+          ls ./public/ui
