@@ -1,5 +1,5 @@
-name: Publish to npm
-run-name: Publishing to NPM 🚀
+name: Make components public
+run-name: Making components folder linket to punlic 🛠️
 on: push
 jobs:
   build:
@@ -9,4 +9,6 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
+      - run: mkdir ./public/ui
       - run: ln -s ./src/components/ ./public/ui
+      - run: ls public
