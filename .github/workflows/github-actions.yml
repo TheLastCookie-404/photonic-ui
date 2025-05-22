@@ -13,8 +13,7 @@ jobs:
         with:
           node-version: "22.x"
           registry-url: "https://registry.npmjs.org"
-      - run: cd package
-      - run: npm i
-      - run: npm publish
+      - run: npm i --prefix package
+      - run: npm publish --prefix package
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
