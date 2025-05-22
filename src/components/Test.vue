@@ -1,3 +1,3 @@
 <template>
-  <div>Lol</div>
+  <div>Lol Kek</div>
 </template>
