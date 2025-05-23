@@ -4,9 +4,9 @@ function getComponentsData() {
   return fs.readdirSync("public/ui", { recursive: true });
 }
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(() => {
   return {
-    hostname: event.node.req.headers.host,
+    // hostname: event.node.req.headers.host,
     components: getComponentsData(),
   };
 });
