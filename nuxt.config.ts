@@ -17,10 +17,5 @@ export default defineNuxtConfig({
       allowedHosts: true,
     },
   },
-  nitro: {
-    routeRules: {
-      "/api/**": { cors: false },
-    },
-  },
   css: ["~/assets/app.css"],
 });
