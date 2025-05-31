@@ -3,5 +3,5 @@
 </template>
 
 <script setup lang="ts">
-  const { data } = await useFetch("http://localhost:3000/api/ui");
+  const { data } = await useFetch("http://photonic-ui.netlify.app/api/ui");
 </script>
