@@ -18,4 +18,7 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/app.css"],
+  nitro: {
+    preset: "netlify_edge",
+  },
 });
