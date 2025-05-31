@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/app.css"],
   nitro: {
+    prerender: {
+      routes: ['/api/*']
+    },
     preset: "netlify_edge",
   },
 });
