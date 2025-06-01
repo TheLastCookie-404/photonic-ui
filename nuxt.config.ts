@@ -19,7 +19,6 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/app.css"],
   nitro: {
-    preset: 'node-server',
-    apiBaseURL: "/api",
+    // preset: 'node-server',
   },
 });
